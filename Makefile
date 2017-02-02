@@ -67,14 +67,14 @@ RESET:= $(shell tput sgr0)
 
 # First make target = help
 help:
-	@echo '---------------------------------------------------------------------'
-	@echo ' $(BOLD)$(YELLOW)$(PROJECT_NAME)$(RESET) $(BOLD)$(VERSION)$(RESET) make interface'
-	@echo '---------------------------------------------------------------------'
-	@echo ' $(BOLD)make [help]$(RESET) - Prints out this help message.'
-	@echo ' $(BOLD)make test$(RESET)   - Compiles the whole test suite and runs it.'
-	@echo ' $(BOLD)make build$(RESET)  - Compiles the project.'
-	@echo ' $(BOLD)make files$(RESET)  - Prints out the files registered by make.'
-	@echo ' $(BOLD)make clean$(RESET)  - Cleans up the build directory.'
+	@echo "---------------------------------------------------------------------"
+	@echo " $(BOLD)$(YELLOW)$(PROJECT_NAME)$(RESET) $(BOLD)$(VERSION)$(RESET) make interface"
+	@echo "---------------------------------------------------------------------"
+	@echo " $(BOLD)make [help]$(RESET) - Prints out this help message."
+	@echo " $(BOLD)make test$(RESET)   - Compiles the whole test suite and runs it."
+	@echo " $(BOLD)make build$(RESET)  - Compiles the project."
+	@echo " $(BOLD)make files$(RESET)  - Prints out the files registered by make."
+	@echo " $(BOLD)make clean$(RESET)  - Cleans up the build directory."
 
 
 #==============================================================================
